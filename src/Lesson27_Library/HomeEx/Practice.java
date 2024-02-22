@@ -1,4 +1,4 @@
-package Lesson27.HomeEx;
+package Lesson27_Library.HomeEx;
 
 public class Practice {
     public static void main(String[] args) {

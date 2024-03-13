@@ -22,16 +22,21 @@ public class While_True_ArrayList {
                 System.out.println("Введите задачу для планирования: ");
                 list1.add(scanner.nextLine());
             } else if (command == 2) {
+                int number =1;
                 for (int i = 0; i < list1.size(); i++) {
-                    System.out.println(list1.get(i));
+                    System.out.println(number+"."+list1.get(i));
+                    number=number+1;
                 }
+                System.out.println();
             } else if (command == 3) {
                 System.out.println("Введите индекс задачи для удаления");
                 list1.remove(scanner.nextInt()-1);
+                System.out.println();
             } else if (command == 0) {
                 break;
             } else {
                 System.out.println("Данной команды нет в списке");
+                System.out.println();
             }
         }
     }

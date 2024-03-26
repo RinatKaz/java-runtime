@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class MainForNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        HashSet<NumberUser> hSet1 = new HashSet<>();
         System.out.println("Введите число: ");
         while (true) {
             String number = scanner.nextLine();

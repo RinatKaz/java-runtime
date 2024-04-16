@@ -1,4 +1,4 @@
-package Lesson31.Ex1;
+package Lesson31.Ex1.Ex1;
 
 public class Products {
     private String name;

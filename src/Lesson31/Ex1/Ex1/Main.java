@@ -1,9 +1,9 @@
-package Lesson31.Ex1;
+package Lesson31.Ex1.Ex1;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Ex1 {
+public class Main {
     public static void main(String[] args) {
         List<Products> products = new ArrayList<>();
 

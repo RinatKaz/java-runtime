@@ -22,7 +22,7 @@ public class Ex {
         
 
 for (int i=1 ; i<6; i++){
-        Path filePath = file1.resolve("report1.txt");
+        Path filePath = file1.resolve("report"+i+".txt");
         if (!Files.exists(filePath)) {
             Files.createFile(filePath);
             System.out.println("Файл " + filePath + " создан");
